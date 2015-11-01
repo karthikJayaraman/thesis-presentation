@@ -1,0 +1,75 @@
+\section{Method} \label{sec:method} % 2-3 mins
+
+\subsection{Pedestrian Dead Reckoning} \label{ssec:method_PDR}
+\begin{frame}{Pedestrian Dead Reckoning}
+	
+	\includegraphics<9>[width=\textwidth,height=0.8\textheight,keepaspectratio]{heading}
+	\centering
+	\only{\\$\omega_{compass} = \frac{\psi_{compass}(t_{k} + \Delta t) - \psi_{compass}(t_k)}{\Delta t}$}<9>
+	
+		\includegraphics<10>[width=\textwidth,height=\textheight,keepaspectratio]{pdrFlow}
+		\only{ \begin{equation*}
+			\begin{aligned}
+			\boldsymbol{x}= 
+			\begin{bmatrix}
+			x\\
+			y 
+			\end{bmatrix}
+			=
+			\begin{bmatrix}
+			x + s\sin(\theta)\\
+			y + s\cos(\theta)
+			\end{bmatrix}
+			\end{aligned}
+			\end{equation*}}<10>
+
+	\begin{itemize}[<1-8>]
+    	\item<1-8 | alert@+> Step detection
+        	\begin{itemize}
+              \item<2-8 | alert@+> Combine acceleration along all three axes 
+              \item<3-8| alert@+> Step detection based on peak length, zero-crossing
+        	\end{itemize}
+        	
+        \item<4-8| alert@+> Step length estimation      
+        	\begin{itemize}
+              \item<5-8| alert@+> Constant value
+              \item<6-8| alert@+> Weinberg approach:  $\sqrt[4]{A_{max} - A_{min}} \times n \times k$
+              \item<7-8| alert@+> Scarlet approach:  $k \times \sqrt[3]{\frac{\sum_{k=1}^{N} \lvert a_k\rvert}{N}}$
+        	\end{itemize}
+        	
+        \item<8-8| alert@+> Heading estimation
+  	\end{itemize}
+  	
+\end{frame}
+
+\subsection{Hybrid PDR} \label{ssec:method_hybrid}
+\begin{frame}{Hybrid PDR}
+\begin{itemize}[<+-| alert@+>]
+    \item Bayesian Filtering    
+        \begin{itemize}
+	      \item Kalman Filter  
+          \item Particle Filter: 
+          \begin{equation*}
+          \begin{aligned}
+          \boldsymbol{x}_{t}^{i} = 
+          \begin{bmatrix}
+          x_{t}^{i}\\
+          y_{t}^{i} 
+          \end{bmatrix}
+          =
+          \begin{bmatrix}
+          x_{t-1}^{i} + s_{t}^{i}\sin(\theta^{i}_{t})\\
+          y_{t-1}^{i} + s_{t}^{i}\cos(\theta^{i}_{t})
+          \end{bmatrix}
+          \end{aligned}
+          \end{equation*}
+        \end{itemize}
+        
+    \item Error Correction with Direct Sensing Technology   
+        \begin{itemize}
+            \item Bluetooth Beacons with known positions scattered through the map
+        \end{itemize}
+
+  	\end{itemize}
+
+\end{frame}

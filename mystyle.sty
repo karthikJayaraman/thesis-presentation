@@ -1,0 +1,38 @@
+% This document contains all the packages used in the thesis 
+
+% ================================================================
+% PRESENTATION STYLE
+\usetheme{Singapore}      % or try Darmstadt, Madrid, Warsaw, ...
+\usecolortheme{default} % or try albatross, beaver, crane, ...
+\usefonttheme{serif}  % or try serif, structurebold, ...
+\setbeamertemplate{caption}[numbered]
+\setbeamertemplate{itemize items}[default]
+\setbeamertemplate{blocks}[default]
+
+% ================================================================
+% typrogrpahy
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+
+% ================================================================
+% misc
+\usepackage[super]{nth}
+
+% ================================================================
+% extension to LaTeX math
+\usepackage{amsmath,amssymb,bm,mathtools}
+\usepackage{cancel}
+\usepackage[]{units} %nice frac
+
+% ================================================================
+% custom code
+\usepackage{tikz}
+
+% outline current progress at the start of section
+\AtBeginSection[]
+{
+\begin{frame}{Outline}
+\tableofcontents[currentsection,hideallsubsections]
+\end{frame}
+}
+

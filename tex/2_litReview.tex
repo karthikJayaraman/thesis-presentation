@@ -1,0 +1,107 @@
+\section{Literature Review} \label{sec:litRev} % 2-3 mins
+
+\subsection{Purpose} \label{ssec:litRev_purpose}
+\begin{frame}{Purpose}
+
+	\begin{itemize}[<+-| alert@+>]
+      \item conduct a study of current technology and systems
+      \item Main  components of thesis:
+      	\begin{itemize}
+			\item real time indoor positioning to track patients
+            \item social network analysis (SNA) to identify high risk areas
+	   	\end{itemize}
+       \item RTLS systems in hospitals
+       \item Indoor positioning technologies
+       \item SNA in disease transmission and control 
+  	\end{itemize}
+
+\end{frame}
+
+\subsection{RTLS in Hospitals} \label{ssec:litRev_rtls}
+\begin{frame}{Real Time Location Systems (RTLS) in Hospitals}
+
+    \begin{figure}[t]
+      \includegraphics<3-3>[width=\textwidth,height=0.8\textheight,keepaspectratio]{rtls}
+	\end{figure}
+
+	\begin{itemize}
+      \item<1-2,4-5| alert@+> RTLS is an integral part of the health care industry
+      \item<2-2,4-5| alert@+> RTLS components
+      \item<4-| alert@4> Used in monitoring and workflow improvements
+      \item<5-| alert@5> No consistent RTLS system
+  	\end{itemize}
+
+\end{frame}
+
+\subsection{Indoor Localisation} \label{ssec:litRev_inLocal}
+\begin{frame}{Indoor Localisation}
+    
+    \begin{itemize}[<+-| alert@+>]
+      \item Pedestrian Dead Reckoning (PDR)
+      \item Direct Sensing
+      \item Triangulation
+      \item Pattern Recognition
+  	\end{itemize}
+
+\end{frame}
+
+\subsubsection{PDR} \label{sssec:litRev_inLocal_PDR}
+\begin{frame}{Pedestrian Dead Reckoning (PDR)}
+
+	\includegraphics<4>[width=\textwidth,height=0.8\textheight,keepaspectratio]{step}
+
+	\begin{itemize}[<+-| alert@+>]
+      \item Dead reckoning systems specific to pedestrians
+      \item Generally consists of a step-heading cycle:
+      \begin{itemize}
+		\item Sample sensor recordings for specific timeframe
+        \item Detect Step and estimate step size
+        \item Estimate step heading
+	  \end{itemize}
+      \item Infrastructure free
+      \item Error accumulation
+  	\end{itemize}
+
+\end{frame}
+
+\subsubsection{Direct Sensing Technologies} \label{sssec:litRev_inLocal_ds}
+\begin{frame}{Direct Sensing Technologies}
+
+	\begin{itemize}[<+-| alert@+>]
+      \item Infrared (IR)
+      \item Radio Frequency Identifier Description (RFID)
+      \item Ultrasound Identification (USID)
+      \item Wireless Networks (WLAN)
+  	\end{itemize}
+
+\end{frame}
+
+\subsubsection{Positioning Techniques} \label{sssec:litRev_inLocal_posTech}
+\begin{frame}{Positioning Techniques}
+
+	\begin{itemize}[<+-| alert@+>]
+    \item Triangulation    
+        \begin{itemize}
+          \item Tags are installed using direct sensing technologies.
+          \item Position of the tags are known and used in the triangulation method
+        \end{itemize}
+        
+    \item Computer Vision    
+        \begin{itemize}
+            \item Offline Stage - capture images of various location / physical landmarks
+            \item Online Stage - compare current captured image to image database
+        \end{itemize}
+
+    \item Fingerprinting   
+        \begin{itemize}
+            \item Offline Stage - sampling locations to build a radio map
+            \item Online Stage - compare current recorded RSSI to radio map.
+        \end{itemize}
+
+  	\end{itemize}
+
+\end{frame}
+
+%\subsection{Social Network Analysis} \label{ssec:litRev_sna}
+%\begin{frame}{Social Network Analysis}
+%\end{frame}

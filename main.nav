@@ -1,0 +1,84 @@
+\beamer@endinputifotherversion {3.33pt}
+\headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
+\headcommand {\beamer@framepages {1}{1}}
+\headcommand {\sectionentry {1}{Introduction}{2}{Introduction}{0}}
+\headcommand {\beamer@sectionpages {1}{1}}
+\headcommand {\beamer@subsectionpages {1}{1}}
+\headcommand {\slideentry {1}{0}{2}{2/2}{}{0}}
+\headcommand {\beamer@framepages {2}{2}}
+\headcommand {\beamer@subsectionentry {0}{1}{1}{3}{Background}}\headcommand {\beamer@subsectionpages {2}{2}}
+\headcommand {\slideentry {1}{1}{1}{3/7}{Background}{0}}
+\headcommand {\beamer@framepages {3}{7}}
+\headcommand {\beamer@subsectionentry {0}{1}{2}{8}{Research Outline}}\headcommand {\beamer@subsectionpages {3}{7}}
+\headcommand {\slideentry {1}{2}{1}{8/10}{Research Outline}{0}}
+\headcommand {\beamer@framepages {8}{10}}
+\headcommand {\beamer@subsectionentry {0}{1}{3}{11}{Scope}}\headcommand {\beamer@subsectionpages {8}{10}}
+\headcommand {\slideentry {1}{3}{1}{11/16}{Scope}{0}}
+\headcommand {\beamer@framepages {11}{16}}
+\headcommand {\beamer@subsectionentry {0}{1}{4}{17}{Objectives}}\headcommand {\beamer@subsectionpages {11}{16}}
+\headcommand {\slideentry {1}{4}{1}{17/20}{Objectives}{0}}
+\headcommand {\beamer@framepages {17}{20}}
+\headcommand {\sectionentry {2}{Literature Review}{21}{Literature Review}{0}}
+\headcommand {\beamer@sectionpages {2}{20}}
+\headcommand {\beamer@subsectionpages {17}{20}}
+\headcommand {\slideentry {2}{0}{2}{21/21}{}{0}}
+\headcommand {\beamer@framepages {21}{21}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{22}{Purpose}}\headcommand {\beamer@subsectionpages {21}{21}}
+\headcommand {\slideentry {2}{1}{1}{22/28}{Purpose}{0}}
+\headcommand {\beamer@framepages {22}{28}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{29}{RTLS in Hospitals}}\headcommand {\beamer@subsectionpages {22}{28}}
+\headcommand {\slideentry {2}{2}{1}{29/33}{RTLS in Hospitals}{0}}
+\headcommand {\beamer@framepages {29}{33}}
+\headcommand {\beamer@subsectionentry {0}{2}{3}{34}{Indoor Localisation}}\headcommand {\beamer@subsectionpages {29}{33}}
+\headcommand {\slideentry {2}{3}{1}{34/37}{Indoor Localisation}{0}}
+\headcommand {\beamer@framepages {34}{37}}
+\headcommand {\beamer@subsubsectionentry {0}{2}{3}{1}{38}{PDR}}
+\headcommand {\slideentry {2}{3}{2}{38/44}{Indoor Localisation}{0}}
+\headcommand {\beamer@framepages {38}{44}}
+\headcommand {\beamer@subsubsectionentry {0}{2}{3}{2}{45}{Direct Sensing Technologies}}
+\headcommand {\slideentry {2}{3}{3}{45/48}{Indoor Localisation}{0}}
+\headcommand {\beamer@framepages {45}{48}}
+\headcommand {\beamer@subsubsectionentry {0}{2}{3}{3}{49}{Positioning Techniques}}
+\headcommand {\slideentry {2}{3}{4}{49/57}{Indoor Localisation}{0}}
+\headcommand {\beamer@framepages {49}{57}}
+\headcommand {\sectionentry {3}{Method}{58}{Method}{0}}
+\headcommand {\beamer@sectionpages {21}{57}}
+\headcommand {\beamer@subsectionpages {34}{57}}
+\headcommand {\slideentry {3}{0}{5}{58/58}{}{0}}
+\headcommand {\beamer@framepages {58}{58}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{59}{Pedestrian Dead Reckoning}}\headcommand {\beamer@subsectionpages {58}{58}}
+\headcommand {\slideentry {3}{1}{1}{59/68}{Pedestrian Dead Reckoning}{0}}
+\headcommand {\beamer@framepages {59}{68}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{69}{Hybrid PDR}}\headcommand {\beamer@subsectionpages {59}{68}}
+\headcommand {\slideentry {3}{2}{1}{69/73}{Hybrid PDR}{0}}
+\headcommand {\beamer@framepages {69}{73}}
+\headcommand {\sectionentry {4}{Results}{74}{Results}{0}}
+\headcommand {\beamer@sectionpages {58}{73}}
+\headcommand {\beamer@subsectionpages {69}{73}}
+\headcommand {\slideentry {4}{0}{2}{74/74}{}{0}}
+\headcommand {\beamer@framepages {74}{74}}
+\headcommand {\beamer@subsectionentry {0}{4}{1}{75}{Step Detection}}\headcommand {\beamer@subsectionpages {74}{74}}
+\headcommand {\slideentry {4}{1}{1}{75/75}{Step Detection}{0}}
+\headcommand {\beamer@framepages {75}{75}}
+\headcommand {\beamer@subsectionentry {0}{4}{2}{76}{Heading Estimation}}\headcommand {\beamer@subsectionpages {75}{75}}
+\headcommand {\slideentry {4}{2}{1}{76/76}{Heading Estimation}{0}}
+\headcommand {\beamer@framepages {76}{76}}
+\headcommand {\beamer@subsectionentry {0}{4}{3}{77}{Map Matching}}\headcommand {\beamer@subsectionpages {76}{76}}
+\headcommand {\slideentry {4}{3}{1}{77/77}{Map Matching}{0}}
+\headcommand {\beamer@framepages {77}{77}}
+\headcommand {\sectionentry {5}{Conclusion}{78}{Conclusion}{0}}
+\headcommand {\beamer@sectionpages {74}{77}}
+\headcommand {\beamer@subsectionpages {77}{77}}
+\headcommand {\slideentry {5}{0}{2}{78/78}{}{0}}
+\headcommand {\beamer@framepages {78}{78}}
+\headcommand {\beamer@subsectionentry {0}{5}{1}{79}{Summary}}\headcommand {\beamer@subsectionpages {78}{78}}
+\headcommand {\slideentry {5}{1}{1}{79/82}{Summary}{0}}
+\headcommand {\beamer@framepages {79}{82}}
+\headcommand {\beamer@subsectionentry {0}{5}{2}{83}{Future Work}}\headcommand {\beamer@subsectionpages {79}{82}}
+\headcommand {\slideentry {5}{2}{1}{83/93}{Future Work}{0}}
+\headcommand {\beamer@framepages {83}{93}}
+\headcommand {\beamer@partpages {1}{93}}
+\headcommand {\beamer@subsectionpages {83}{93}}
+\headcommand {\beamer@sectionpages {78}{93}}
+\headcommand {\beamer@documentpages {93}}
+\headcommand {\def \inserttotalframenumber {23}}
